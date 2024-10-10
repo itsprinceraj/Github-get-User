@@ -130,10 +130,10 @@ function darkModeProperties() {
   modeicon.src = "./assets/images/sun-icon.svg";
   root.setProperty("--lm-icon-bg", "brightness(1000%)");
   darkMode = true;
-  console.log("darkmode changed to " + darkMode);
-  localStorage.setItem("dark-mode", true);  console.log("setting dark mode to false");
+  // console.log("darkmode changed to " + darkMode);
+  localStorage.setItem("dark-mode", true);  //console.log("setting dark mode to false");
 
-  console.log("setting dark mode to true");
+  // console.log("setting dark mode to true");
 
 }
 
@@ -171,7 +171,7 @@ function init() {
     lightModeProperties();
   }
   else if(value == "true") {
-    console.log("truer k andar");
+    // console.log("truer k andar");
     darkModeProperties();
   }
   else if(value == "false") {
