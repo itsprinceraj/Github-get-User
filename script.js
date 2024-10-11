@@ -182,7 +182,7 @@ function init() {
 
   //by default meri github profile show krni h UI pr
 
-  getUserData(url + "iamprinceraj");
+  getUserData(url + "itsprinceraj");
 }
 
 init();
